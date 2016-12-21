@@ -1,0 +1,9 @@
+
+<h2>Clientes: ({{clientes.length}})</h2>
+
+<a href="/#!novo" class="btn btn-primary">Novo Cliente</a>
+<ul>
+	<li ng-repeat="cliente in clientes">
+		<a href="/#!edit/{{cliente}}">{{cliente}}</a>
+	</li>
+</ul>

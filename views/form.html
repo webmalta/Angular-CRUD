@@ -1,0 +1,14 @@
+
+<h2>{{title}}</h2>
+
+<form name="form">
+
+<div class="form-group">
+    <input type="text" class="form-control" ng-model="cliente" required>
+</div>
+
+<button ng-click="salvar()" class="btn btn-primary" ng-disabled="form.$invalid">SALVAR</button>
+<a href="/#!" class="btn btn-danger">Cancelar</a>
+</form>
+
+
