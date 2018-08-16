@@ -1,2 +1,2 @@
-#Angular-CRUD
-Aplicação CRUD angular simples.
+# Angular
+* Simples CRUD
